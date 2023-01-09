@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Zadanie 1",
+      "setup": "mkdir -p build && cd build && cmake .. && cmake --build . --target zad1 && chmod +x zad1",
+      "run": "cd build && ./zad1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Zadanie 2",
+      "setup": "mkdir -p build && cd build && cmake .. && cmake --build . --target zad2 && chmod +x zad2",
+      "run": "cd build && ./zad2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Zadanie 3",
+      "setup": "mkdir -p build && cd build && cmake .. && cmake --build . --target zad3 && chmod +x zad3",
+      "run": "cd build && ./zad3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Zadanie 4",
+      "setup": "mkdir -p build && cd build && cmake .. && cmake --build . --target zad4 && chmod +x zad4",
+      "run": "cd build && ./zad4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Zadanie 5",
+      "setup": "mkdir -p build && cd build && cmake .. && cmake --build . --target zad5 && chmod +x zad5",
+      "run": "cd build && ./zad5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    }
+  ]
+}
