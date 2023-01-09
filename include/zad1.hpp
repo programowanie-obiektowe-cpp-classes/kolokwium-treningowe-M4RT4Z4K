@@ -27,3 +27,10 @@ public:
 private:
     double       L, W, R;
     static const double C;
+};
+
+class Penne : public Makaron
+{
+public:
+    double ileMaki(unsigned P) const { return P; }
+};
