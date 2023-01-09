@@ -8,7 +8,7 @@ class Makaron {
 public:
     virtual ~Makaron() = default;
     virtual double  ileMaki(unsigned P) const { return 0; }
-    static Makaron* gotujMakaron(const std::string& S) {
+    Makaron* gotujMakaron(const std::string& S) {
         if (S.front() == S.back())
         {
             return new Tagliatelle(3.14, 0.42, 0.1);
