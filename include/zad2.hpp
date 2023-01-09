@@ -4,6 +4,8 @@
 #include <string>
 #include <type_traits>
 
-// tutaj klasa Penne
-
-// tutaj definicja metody gotujMakaron
+class Penne : public Makaron
+{
+public:
+    double ileMaki(unsigned P) const { return P; }
+};
