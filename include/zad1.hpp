@@ -1,5 +1,8 @@
 #include "catch.hpp"
 #include <iostream>
+#include <memory>
+#include <string>
+#include <type_traits>
 
 class Makaron {
 public:
